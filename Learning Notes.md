@@ -64,6 +64,16 @@
 * &#x20;  **git log --oneline** - This will show the oneline version "Commit" logs and their Shorted ID's.
 
 
+**git branch** - list out all the branches present in the repository.
+
+
+* &#x20;  **git branch <newBranchName>** - Creates the New Branch we Mentioned. This new inherit the contents of the Current Branch(The branch that we have in when we are created the new Branch)
+
+
+
+* &#x20;  **git checkout <newBranchName>** - Switch to the Branch we Mentioned.
+
+
 
 
 
