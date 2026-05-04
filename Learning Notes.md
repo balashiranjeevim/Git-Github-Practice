@@ -32,22 +32,36 @@
 
 * &#x20;   **git reset --soft HEAD\~1** - Removes the last commit, Keeps all changes in the staging area.
 * &#x20;   **git reset --mixed HEAD\~1** - Removes the last commit, Unstages the changes.
-* &#x20;   **git reset --hard HEAD\~1** - Deletes the last commit, Removes all staged changes, Deletes all working directory changes. Resets your project exactly to the previous commit.You made a               				 bad commit and want to completely erase it.
+* &#x20;   **git reset --hard HEAD\~1** - Deletes the last commit, Removes all staged changes, Deletes all working directory changes. Resets your project exactly to the previous commit. You made a               				 bad commit and want to completely erase it.
 * &#x20;   **git reset --hard** - Deletes all uncommitted changes, Keeps all commits intact. if you messed up your working files and want to go back to the last committed state.
 
 
 
 **git commit -m "This Commit Message"**  - This is used for "Commit" the all files in the "Staging". the Commit Message is Mentioned between the Quotation " ".
 
-**git rm ThisFile** - This will remove or delete the mentione file (ThisFile can be any filename) name also "Stage" the changes, in single command. we don't need to "Stage" the Deleted status Induvidually.
+
+
+**git rm ThisFile** - This will remove or delete the mentione file (ThisFile can be any filename) name also "Stage" the changes, in single command. we don't need to "Stage" the Deleted status Individually.
 
 
 
-**git rm -f filename.txt** - removes the file forcefully.
+* &#x20;  **git rm -f filename.txt** - removes the file forcefully.
 
 
 
-**git rm -cached filename.txt**  - removes the file in staging area, but keeps in working Directory.
+* &#x20;  **git rm -cached filename.txt**  - removes the file in staging area, but keeps in working Directory.
+
+
+
+* &#x20;  **git rm -r <Folder**>  - This command delete the folder and its Contents. <Folder> - this can  be any folder you want to delete. -r stands for recursively.
+
+
+
+**git log** - This shows the logs of "Commits". and also Commit ID's
+
+
+
+* &#x20;  **git log --oneline** - This will show the oneline version "Commit" logs and their Shorted ID's.
 
 
 
