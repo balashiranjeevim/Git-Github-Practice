@@ -64,7 +64,9 @@
 * &#x20;  **git log --oneline** - This will show the oneline version "Commit" logs and their Shorted ID's.
 
 
+
 **git branch** - list out all the branches present in the repository.
+
 
 
 * &#x20;  **git branch <newBranchName>** - Creates the New Branch we Mentioned. This new inherit the contents of the Current Branch(The branch that we have in when we are created the new Branch)
@@ -72,6 +74,36 @@
 
 
 * &#x20;  **git checkout <newBranchName>** - Switch to the Branch we Mentioned.
+
+
+
+**git merge main -m** "Merging main branch into Current branch"
+
+**git checkout <Commit ID>** - This command is used for Changing the this to (Commit ID) version of project.
+
+**git diff <Commit ID> <Commit ID**> - This command is used for Seeing the difference and Changes between to Commits. 
+
+
+
+**Press 'Q' for exit Git Log.**
+
+
+
+**git push orgin main** - This pushes the commits to Remote Repository "main" Branch. also it creates the  branch in remote repository and push the code. in if it not present in remote repo.
+
+
+
+**git fetch**   - It fetch the lastest change in the  current Branch in remote repository into local Directory. use "git merge " to reflect those changes is in local directory.
+
+
+
+**git pull** - this Command is used for fetch and merge the the latest changes in the remote repository into local Directory. in Current Branch.
+
+
+
+
+
+
 
 
 
