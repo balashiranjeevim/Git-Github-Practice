@@ -143,3 +143,7 @@
 
 
 
+**git revert <Commit ID>** - is used to undo a commit safely by creating a new commit that reverses the changes.It does not delete history from Commit History.
+
+
+
