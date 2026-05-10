@@ -117,6 +117,29 @@
 **git restore --staged <filename or Directory or whole repo>** - This command is used for restore all the staged( specific file or Directory or whole repo) to its previous Commits.
 
 
+**git stash** - the unstaged changes can be stored in temporary file. then it can be retrieved.
+
+**git stash pop** - removed stash and restore the changes.
+
+
+
+**git stash pop stash@{0}** - remove the specific stash file (stash@{0}), from the temporary file then restore the changes.
+
+
+
+**git stash apply** - apply the changes, but keep stashed changes in the temporary file.
+
+
+
+**git stash apply stash@{1}** - apply the changes in the specified stash file (stash@{1}), also keep that file in temporary file.
+
+
+
+**git stash drop** - removes/drop all the changes in the temporary file.
+
+
+
+**git stash drop stash@{1}** - removes/drop specified stash file (stash@{1}) the changes in the temporary file.
 
 
 
