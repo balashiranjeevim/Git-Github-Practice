@@ -10,6 +10,12 @@
 
 
 
+**git remote add origin https://github.com/yourusername/project-name.git** - This Command is used to Connect a local repo to Remmote Repository.
+
+**git push -u origin main** - After connecting remote repository, we are pushing code to that remote repo. -u stands for Upstream, that remember the Orgin(Repo Connection Everytime).
+
+
+
 **git status** - checking the git status, it will show, what files are modified, created, deleted, what needs to be added to "Staging".
 
 
@@ -81,7 +87,7 @@
 
 **git checkout <Commit ID>** - This command is used for Changing the this to (Commit ID) version of project.
 
-**git diff <Commit ID> <Commit ID**> - This command is used for Seeing the difference and Changes between to Commits. 
+**git diff <Commit ID> <Commit ID**> - This command is used for Seeing the difference and Changes between to Commits.
 
 
 
@@ -93,7 +99,7 @@
 
 
 
-**git fetch**   - It fetch the lastest change in the  current Branch in remote repository into local Directory. use "git merge " to reflect those changes is in local directory.
+**git fetch**   - It fetch the latest change in the  current Branch in remote repository into local Directory. use "git merge " to reflect those changes is in local directory.
 
 
 
@@ -101,9 +107,14 @@
 
 
 
+**git restore <filename or Directory>** - This command is used for restoring the file or directory or whole repo to it's previous commits, but changes we made should be staged or committed.
+
+
+**git restore .**  - restore all files (whole repo) to it's previous commit.
 
 
 
+**git restore --staged <filename or Directory or whole repo>** - This command is used for restore all the staged( specific file or Directory or whole repo) to its previous Commits.
 
 
 
