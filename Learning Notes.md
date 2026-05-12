@@ -149,3 +149,112 @@
 
 **git rebase <branchName>** - To update your branch with the latest changes from another branch (often main or develop) without creating a merge commit.Keeps history linear and clean, unlike git merge which introduces extra merge commits.
 
+
+
+
+
+
+**Pull Request :**
+
+🔹 What is a Pull Request?
+
+You create changes in your branch (not directly in main)
+
+Then you request to merge those changes into another branch (usually main)
+
+Others can:
+
+Review your code
+
+Suggest changes
+
+Approve or reject
+
+
+
+&#x20;Common in platforms like GitHub, GitLab
+
+
+
+🔹 Simple Flow (Real Understanding)
+
+main branch (original code)
+
+&#x20;       ↓
+
+create new branch (your work)
+
+&#x20;       ↓
+
+make changes + commit
+
+&#x20;       ↓
+
+push to GitHub
+
+&#x20;       ↓
+
+create Pull Request
+
+&#x20;       ↓
+
+review → merge
+
+🔹 How to Create a Pull Request (Step-by-Step)
+
+1\. Create a new branch
+
+git checkout -b feature-branch
+
+2\. Make changes + commit
+
+git add .
+
+git commit -m "Added new feature"
+
+3\. Push to GitHub
+
+git push origin feature-branch
+
+4\. Create Pull Request on GitHub
+
+Go to your repo on GitHub
+
+You’ll see: “Compare \& pull request”
+
+Click it
+
+5\. Fill details
+
+Title → what you did
+
+Description → explain changes
+
+
+
+Then click:
+
+&#x20;Create Pull Request
+
+
+
+6\. Review + Merge
+
+Others review your code
+
+If everything is good → click Merge
+
+🔹 When Should You Use PR?
+
+
+
+Use PR when:
+
+
+
+Working in a team
+
+Contributing to open source (like GSoC )
+
+You don’t want to break main code
+
