@@ -110,11 +110,13 @@
 **git restore <filename or Directory>** - This command is used for restoring the file or directory or whole repo to it's previous commits, but changes we made should be staged or committed.
 
 
+
 **git restore .**  - restore all files (whole repo) to it's previous commit.
 
 
 
 **git restore --staged <filename or Directory or whole repo>** - This command is used for restore all the staged( specific file or Directory or whole repo) to its previous Commits.
+
 
 
 **git stash** - the unstaged changes can be stored in temporary file. then it can be retrieved.
@@ -145,5 +147,5 @@
 
 **git revert <Commit ID>** - is used to undo a commit safely by creating a new commit that reverses the changes.It does not delete history from Commit History.
 
-
+**git rebase <branchName>** - To update your branch with the latest changes from another branch (often main or develop) without creating a merge commit.Keeps history linear and clean, unlike git merge which introduces extra merge commits.
 
