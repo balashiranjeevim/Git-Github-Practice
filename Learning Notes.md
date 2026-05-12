@@ -156,7 +156,7 @@
 
 **Pull Request :**
 
-🔹 What is a Pull Request?
+\* What is a Pull Request?
 
 You create changes in your branch (not directly in main)
 
@@ -176,7 +176,7 @@ Approve or reject
 
 
 
-🔹 Simple Flow (Real Understanding)
+\* Simple Flow (Real Understanding)
 
 main branch (original code)
 
@@ -200,7 +200,7 @@ create Pull Request
 
 review → merge
 
-🔹 How to Create a Pull Request (Step-by-Step)
+\* How to Create a Pull Request (Step-by-Step)
 
 1\. Create a new branch
 
@@ -244,7 +244,7 @@ Others review your code
 
 If everything is good → click Merge
 
-🔹 When Should You Use PR?
+\* When Should You Use PR?
 
 
 
@@ -257,4 +257,7 @@ Working in a team
 Contributing to open source (like GSoC )
 
 You don’t want to break main code
+
+
+**Resource :**  [https://youtu.be/mAFoROnOfHs?si=TgPHyJg2nUN4xat9](https://youtu.be/mAFoROnOfHs?si=TgPHyJg2nUN4xat9)
 
