@@ -149,8 +149,13 @@
 
 **git rebase <branchName>** - To update your branch with the latest changes from another branch (often main or develop) without creating a merge commit.Keeps history linear and clean, unlike git merge which introduces extra merge commits.
 
+**GitHub Commands**
 
+**gh auth login** - to login into your GitHub Account for GitHub CLI
 
+**gh auth status**- to verify and check the GitHub CLI Login
+
+**gh repo create BirthDayCard --public --source=. --remote=origin --push** - GitHub remote repo Creation
 
 
 
